@@ -35,10 +35,10 @@ class HomePage extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 0,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.shopping_bag), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.link), label: ""),
+          BottomNavigationBarItem(icon: Icon(Icons.home,color: Colors.black,),label: ""),
+          BottomNavigationBarItem(icon: Icon(Icons.shopping_bag,color: Colors.black,), label: ""),
+          BottomNavigationBarItem(icon: Icon(Icons.favorite,color: Colors.black,), label: ""),
+          BottomNavigationBarItem(icon: Icon(Icons.link,color: Colors.black,), label: ""),
         ],
       ),
     );
